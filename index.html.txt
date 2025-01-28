@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome da Página</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à minha página!</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Introdução</h2>
+            <p>Este é um parágrafo de exemplo para a seção de introdução.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Meu Projeto</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
