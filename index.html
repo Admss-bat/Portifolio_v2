@@ -3,32 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nome da Página</title>
+    <title>Aprendendo Web</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Bem-vindo à minha página!</h1>
+    <!--<header>
+        <center><h1>Essa página será desenvolvida como aprendizado.</h1></center>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="#">Página Inicial</a></li>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
-    </header>
+    </header>-->
 
     <main>
-        <section>
+        <!--<section>
             <h2>Introdução</h2>
             <p>Este é um parágrafo de exemplo para a seção de introdução.</p>
-        </section>
+        </section>-->
+        <div class="login-bubble">
+            <form action="assets/bd/data/database" method="POST">
+                <div>
+                    <label for="usuario">Usuário</label>
+                    <input placeholder="Digite seu usuário" type="text" id="user" name="usuario" required>
+                </div>
+                <div>
+                    <label>Senha</label>
+                    <input placeholder="Digita sua senha" type="password" id="password" name="senha" required>
+                </div>
+                    <button id=botao type="submit">Login</button>
+            </form>
+        </div>
+    
     </main>
 
-    <footer>
-        <p>&copy; 2025 Meu Projeto</p>
-    </footer>
 
-    <script src="assets/js/script.js"></script>
+    <footer>
+        <p>2025 &copy; Projeto de Aprendizagem de Addams Carvalho</p>
+    </footer>
 </body>
 </html>
